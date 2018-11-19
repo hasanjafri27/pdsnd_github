@@ -1,4 +1,10 @@
-# Python Script to Explore US Bikeshare Data
+## Date Created
+17th November 2018
+
+## Project Title
+Bikeshare Project
+
+## Description
 This Python script is written for Project 2 of Udacity's Programming For Data Science Nanodegree and is used to explore data related to bike share systems for Chicago, New York City, and Washington. It imports data from csv files and compute descriptive statistics from the data. It also takes in users' raw input to create an interactive experience in the terminal to present these statistics.
 
 
@@ -16,7 +22,10 @@ The Chicago and New York City files also have the following two columns:
 1) Gender (Male or Female)
 2) Birth Year (e.g., 1990)
 
-
+## Files used
+1) chicago.csv
+2) washington.csv
+3) new_york_city.csv
 
 ## Questions answered
 The script provides the following information about the bike share data:
