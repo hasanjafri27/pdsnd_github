@@ -13,8 +13,8 @@ The data for this project is provided by the company 'Motivate'. Some data wrang
 6) User Type (Subscriber or Customer)
 
 The Chicago and New York City files also have the following two columns:
-1) Gender
-2) Birth Year
+1) Gender (Male or Female)
+2) Birth Year (e.g., 1990)
 
 
 
