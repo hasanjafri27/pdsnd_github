@@ -191,7 +191,7 @@ def time_stats(df, filter_choice):
     # extract hour from the Start Time column to create an hour column
     df['hour'] = df['Start Time'].dt.hour
     common_hour = df['hour'].mode()[0]
-    print("Most common start hour : ",common_hour,"hundred hours")
+    print("Most common start hour : {} hundred hours",format(common_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -229,10 +229,10 @@ def trip_duration_stats(df):
 
     # display total travel time
     total_traveltime = df['Trip Duration'].sum()
-    print("Total travel time : ",total_traveltime,"seconds")
+    print("Total travel time : {} seconds",format(total_traveltime))
     # display mean travel time
     mean_traveltime = df['Trip Duration'].mean()
-    print("Mean travel time : ",mean_traveltime,"seconds")
+    print("Mean travel time : {} seconds",format(mean_traveltime))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
